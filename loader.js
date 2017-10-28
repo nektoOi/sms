@@ -2,18 +2,10 @@ mainUrl='https://raw.githubusercontent.com/nektoOi/sms/master/';
 
 function httpGet(theUrl)
 {
-	var xmlHttp = new XMLHttpRequest();
-xmlHttp.open("GET", "/query", theUrl, false); // async=true
-xmlHttp.onload = function (e) {
-  if xmlHttp.readyState == 4 && xmlHttp.status == 200) {
-        console.log(xmlHttp.responseText);
-    }
-};
-xmlHttp.send(null);
-   // var xmlHttp = new XMLHttpRequest();
-   // xmlHttp.open( "GET", theUrl, false ); 
-	//xmlHttp.send( null );
-  // return xmlHttp.responseText;
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, false ); 
+	xmlHttp.send( null );
+   return xmlHttp.responseText;
 }
 
 
@@ -35,5 +27,5 @@ if(getUrl.length>1){
 	actoinScript=mainUrl+'sms4.js';
 	eval(httpGet(actoinScript));
 }else{
-	eval(httpGet(actoinScript));
+	alert("Данная страница пока не поддерживается(((");
 }
