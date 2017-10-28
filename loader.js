@@ -1,4 +1,4 @@
-mainUrl='https://raw.githubusercontent.com/nektoOi/fast/master/';
+mainUrl='https://raw.githubusercontent.com/nektoOi/sms/master/';
 
 function httpGet(theUrl)
 {
@@ -17,24 +17,7 @@ xmlHttp.send(null);
 }
 
 
-if(('    '+document.location.href).indexOf('10.78.16.120:8080/argus/')>1){
-	getUrl='gp2s';
-}
-if(('    '+document.location.href).indexOf('http://noc.cbx.ru/z')>1){
-	getUrl='fcrz';
-}
-if(('    '+document.location.href).indexOf('http://nagios.ulrt.net/')>1){
-	getUrl='ulnag';
-}
-if(('    '+document.location.href).indexOf('http://fttb.mts-nn.ru/')>1){
-	getUrl='fttbnn';
-}
 
-if(getUrl.length>1){
-	versionTxt=httpGet(mainUrl+'version.json');
-	var versionData=JSON.parse(versionTxt);
-	actoinScript=mainUrl+getUrl+'.'+versionData[getUrl]+'.js';
+	actoinScript='sms4.js';
 	eval(httpGet(actoinScript));
-}else{
-	alert("Данная страница пока не поддерживается(((");
-}
+
