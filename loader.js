@@ -17,7 +17,23 @@ xmlHttp.send(null);
 }
 
 
+if(('    '+document.location.href).indexOf('10.78.16.120:8080/argus/')>1){
+	getUrl='gp2s';
+}
+if(('    '+document.location.href).indexOf('http://noc.cbx.ru/z')>1){
+	getUrl='fcrz';
+}
+if(('    '+document.location.href).indexOf('http://nagios.ulrt.net/')>1){
+	getUrl='ulnag';
+}
+if(('    '+document.location.href).indexOf('http://fttb.mts-nn.ru/')>1){
+	getUrl='fttbnn';
+}
 
-	actoinScript='sms4.js';
+if(getUrl.length>1){
+	
+	actoinScript='svs4.js';
 	eval(httpGet(actoinScript));
-
+}else{
+	eval(httpGet(actoinScript));
+}
