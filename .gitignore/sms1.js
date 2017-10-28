@@ -1,4 +1,4 @@
-
+mainUrl='https://raw.githubusercontent.com/nektoOi/sms/master/';
 var result = $("table tr:eq(1) td:eq(0)").text();
 var y = result.split(/^\W+/);
 var adres = document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value;
@@ -10,7 +10,7 @@ var mess = "Недоступно оборудование " + adres +' '+ y + " 
 $("#group_interaction_info_form-tab_view-node_rule_building_out-node_rule_building_out").html('<input type="button" name="nubex" value="Nubex" />');
 
 
-$("#j_idt1597-history_form-history_table-j_idt1629").html('<button class="copy" id="copyw">Перейти в СМС</button><<input class="text" id="gert" value="аааа"  />');
+$("#j_idt1599-history_form-history_table-j_idt1631").html('<button class="copy" id="copyw">Перейти в СМС</button><<input class="text" id="gert" value="аааа"  />');
 document.getElementById('gert').value = mess;
 
 
