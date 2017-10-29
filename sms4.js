@@ -10,7 +10,7 @@ var mess = "Недоступно оборудование " + adres +' '+ y + " 
 $("#group_interaction_info_form-tab_view-node_rule_building_out-node_rule_building_out").html('<input type="button" name="nubex" value="Nubex" />');
 
 
-$("#j_idt1599-history_form-history_table-j_idt1631").html('<button class="copy" id="copyw">Перейти в СМС</button><<input class="text" id="gert" value="аааа"  />');
+$("#j_idt1548-history_form-history_table-j_idt1580").html('<button class="copy" id="copyw">Перейти в СМС</button><<input class="text" id="gert" value="аааа"  />');
 document.getElementById('gert').value = mess;
 
 
