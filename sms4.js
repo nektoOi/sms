@@ -6,7 +6,7 @@ var y = '';
 arr.forEach(function(element) {
     if(element.match(/\[(\d+\.){3}\d+\]/)) y = element;
 });
-});
+
 var adres = document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value;
 
      
