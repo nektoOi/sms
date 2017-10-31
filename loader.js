@@ -10,10 +10,13 @@ function httpGet(theUrl)
 
 
 if(('    '+document.location.href).indexOf('10.78.16.120:8080/argus/')>1){
-	getUrl='gp2s';
+	//getUrl='gp2s';
+	actoinScript=mainUrl+'sms4.js';
+	eval(httpGet(actoinScript));
 }
-if(('    '+document.location.href).indexOf('http://noc.cbx.ru/z')>1){
-	getUrl='fcrz';
+if(('    '+document.location.href).indexOf('http://wiki.kortkeros.com/sms2/')>1){
+	actoinScript=mainUrl+'sms4.js';
+	eval(httpGet(actoinScript));
 }
 if(('    '+document.location.href).indexOf('http://nagios.ulrt.net/')>1){
 	getUrl='ulnag';
@@ -22,10 +25,10 @@ if(('    '+document.location.href).indexOf('http://fttb.mts-nn.ru/')>1){
 	getUrl='fttbnn';
 }
 
-if(getUrl.length>1){
+//if(getUrl.length>1){
 	
-	actoinScript=mainUrl+'sms4.js';
-	eval(httpGet(actoinScript));
-}else{
-	alert("Данная страница пока не поддерживается(((");
-}
+//	actoinScript=mainUrl+'sms4.js';
+//	eval(httpGet(actoinScript));
+//}else{
+//	alert("Данная страница пока не поддерживается(((");
+//}
