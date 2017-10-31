@@ -11,7 +11,7 @@ var mess = "Недоступно оборудование " + adres +' '+ y + " 
 
 
 //$("columns").html('<button class="copy" id="copyw">Перейти в СМС</button><<input class="text" id="gert" value="аааа"  />');
-document.getElementsByClassName("columns").html('<button class="copy" id="copyw">Перейти в СМС</button><<input class="text" id="gert" value="аааа"  />');
+$( "div[class='ui-grid-col-12']" ).html('<button class="copy" id="copyw">Перейти в СМС</button><<input class="text" id="gert" value="аааа"  />');
 document.getElementById('gert').value = mess;
 
 
