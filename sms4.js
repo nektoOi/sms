@@ -1,7 +1,12 @@
 mainUrl='https://raw.githubusercontent.com/nektoOi/sms/master/';
 var result = $("table tr:eq(1) td:eq(0)").text();
 //var y = result.split(/^\W+/);
-var y = result.split(/;/);
+var arr = result.split(';');
+var y = '';
+arr.forEach(function(element) {
+    if(element.match(/\[(\d+\.){3}\d+\]/)) y = element;
+});
+});
 var adres = document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value;
 
      
