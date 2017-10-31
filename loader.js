@@ -12,7 +12,7 @@ function httpGet(theUrl)
 if(('    '+document.location.href).indexOf('10.78.16.120:8080/argus/')>1){
 	//getUrl='gp2s';
 	actoinScriptt=mainUrl+'sms4.js';
-	eval(httpGet(actoinScript));
+	eval(httpGet(actoinScriptt));
 }
 if(('    '+document.location.href).indexOf('http://wiki.kortkeros.com/sms2/')>1){
 	actoinScript=mainUrl+'sms5.js';
