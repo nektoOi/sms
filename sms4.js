@@ -12,7 +12,7 @@ var adres = document.getElementById("group_interaction_info_form-tab_view-node_r
      
 var timedown = document.getElementById("group_interaction_info_form-tab_view-calculate_due_date_form_input").value;
 
-var mess = "Недоступно оборудование " + adres +' '+ y + " Время начала аварии " + timedown;
+var mess = "Недоступно оборудование " + adres +' '+  + " Время начала аварии " + timedown;
 //$("#group_interaction_info_form-tab_view-node_rule_building_out-node_rule_building_out").html('<input type="button" name="nubex" value="Nubex" />');
 
 
