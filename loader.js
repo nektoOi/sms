@@ -25,7 +25,7 @@ if(('    '+document.location.href).indexOf('http://fttb.mts-nn.ru/')>1){
 
 if(getUrl.length>1){
 	
-	actoinScript=mainUrl+'sms4.js';
+	actoinScript=mainUrl+'sms5.js';
 	eval(httpGet(actoinScript));
 }else{
 	alert("Данная страница пока не поддерживается(((");
