@@ -1,4 +1,9 @@
+
+$("#text").click();
+
+setTimeout(function() {
 var result = $("#text").val();
+
 
 var arr = result.split(',');
 var nameer = arr[1];
@@ -46,4 +51,12 @@ $( "li[data-tab='tab-31']" ).click();
           document.getElementById("phone1955").click();
     document.getElementById("phone1956").click();
 }
+  if (arr[2].indexOf('Мари')>=1){
+  document.getElementById("phone1950").click();
+    document.getElementById("phone1951").click();
+          document.getElementById("phone1952").click();
+          document.getElementById("phone1955").click();
+    document.getElementById("phone1956").click();
 }
+}
+}, 3000);
