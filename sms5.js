@@ -1,5 +1,5 @@
 
-document.getElementById("text").click();
+document.getElementById('text').click();
 
 setTimeout(function() {
 var result = $("#text").val();
