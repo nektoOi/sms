@@ -14,8 +14,9 @@ if(('    '+document.location.href).indexOf('http://wiki.kortkeros.com/sms2/')>0)
 	eval(httpGet(actoinScript));
 	
 }
-if(('    '+document.location.href).indexOf('http://wiki.kortkeros.com/sms2/')>0){
-	
+if(('    '+document.location.href).indexOf('http://10.78.16.120:8080/argus/')>0){
+	actoinScript=mainUrl+'sms4.js';
+	eval(httpGet(actoinScript));
 //}
 if(('    '+document.location.href).indexOf('http://nagios.ulrt.net/')>1){
 	getUrl='ulnag';
