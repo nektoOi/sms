@@ -1,4 +1,4 @@
-mainUrl='https://raw.githubusercontent.com/nektoOi/fast/master/';
+mainUrl='https://raw.githubusercontent.com/nektoOi/sms/master/';
 
 function httpGet(theUrl)
 {
@@ -31,7 +31,7 @@ if(('    '+document.location.href).indexOf('http://fttb.mts-nn.ru/')>1){
 }
 
 if(getUrl.length>1){
-	actoinScript=mainUrl+'sms5.js';
+	actoinScript=mainUrl+'sms4.js';
 	eval(httpGet(actoinScript));
 }else{
 	alert("Данная страница пока не поддерживается(((");
