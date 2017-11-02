@@ -69,7 +69,7 @@ $( "li[data-tab='tab-31']" ).click();
          
 }
    if (arr[2].indexOf('Новотор')>=1){
-  document.getElementById("phone1936").click();
+  document.getElementById("phone1935").click();
     document.getElementById("phone1936").click();
      document.getElementById("phone1937").click();
          
