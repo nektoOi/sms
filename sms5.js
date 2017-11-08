@@ -3,7 +3,8 @@ document.getElementById('text').focus();
 
 setTimeout(function() {
 var result = $("#text").val();
-
+//var t = "Морки";
+//$('[data-position *= "'+t+'"]').click();
 
 var arr = result.split(',');
 var nameer = arr[1];
