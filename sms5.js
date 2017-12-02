@@ -12,8 +12,8 @@ $( "li[data-tab='tab-10']" ).click();
   var result = $("#text").val();
 
 
-var arr = result.split(',');
-var t = arr[2].trim();
+//var arr = result.split(',');
+//var t = arr[2].trim();
 $('[data-keyword *= "'+t+'"]').click();
 }
   
@@ -23,8 +23,8 @@ $( "li[data-tab='tab-7']" ).click();
   var result = $("#text").val();
 
 
-var arr = result.split(',');
-var t = arr[2].trim();
+//var arr = result.split(',');
+//var t = arr[2].trim();
 $('[data-keyword *= "'+t+'"]').click();
 }
 if (nameer.indexOf('Марий')>=0){
