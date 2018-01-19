@@ -1,6 +1,6 @@
 mainUrl='https://raw.githubusercontent.com/nektoOi/sms/master/';
 
-document.getElementById("j_idt1604-history_form-new_comment").value = "Дано СМС оповещение";
+document.getElementById("j_idt1604-history_form-new_comment").value = "Дано СМС оповещение ответственному подразделению";
 $( "span[class='ui-button-icon-left ui-icon ui-c argus-ui-icon-ok']" ).click();
 
 var result = $("table tr:eq(1) td:eq(0)").text();
