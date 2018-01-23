@@ -16,7 +16,15 @@ $( "li[data-tab='tab-10']" ).click();
 var t = arr[2].trim();
 $('[data-keyword *= "'+t+'"]').click();
 }
-  
+  if (nameer.indexOf('Пензенская')>=0){
+$( "li[data-tab='tab-10']" ).click();
+  var result = $("#text").val();
+
+
+//var arr = result.split(',');
+var t = arr[2].trim();
+$('[data-keyword *= "'+t+'"]').click();
+}
 
 if (nameer.indexOf('Чувашская')>=0){
 $( "li[data-tab='tab-7']" ).click();
