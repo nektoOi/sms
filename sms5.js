@@ -17,7 +17,7 @@ var t = arr[2].trim();
 $('[data-keyword *= "'+t+'"]').click();
 }
   if (nameer.indexOf('Пензенская')>=0){
-$( "li[data-tab='tab-10']" ).click();
+$( "li[data-tab='tab-6']" ).click();
   var result = $("#text").val();
 
 
