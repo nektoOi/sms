@@ -28,6 +28,7 @@ $('[data-keyword *= "'+t+'"]').click();
 
 if (nameer.indexOf('Чувашская')>=0){
 $( "li[data-tab='tab-7']" ).click();
+  document.getElementById("phone465").click();
   var result = $("#text").val();
 
 
@@ -37,6 +38,7 @@ $('[data-keyword *= "'+t+'"]').click();
 }
 if (nameer.indexOf('Марий')>=0){
 $( "li[data-tab='tab-31']" ).click();
+  document.getElementById("phone1985").click();
   if (arr[2].indexOf('Советский')>=1){
   document.getElementById("phone1953").click();
     document.getElementById("phone1954").click();
