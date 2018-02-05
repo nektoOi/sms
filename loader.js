@@ -24,7 +24,7 @@ if(('    '+document.location.href).indexOf('http://nagios.ulrt.net/')>1){
 if((document.location.href).indexOf('http://fttb.mts-nn.ru/monit.php')>=0){
 	actoinScript=mainUrl+'fttb.js';
 	eval(httpGet(actoinScript));
-
+}
 //if(getUrl.length>1){
 	//actoinScript=mainUrl+'sms4.js';
 	//eval(httpGet(actoinScript));
