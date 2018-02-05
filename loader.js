@@ -20,8 +20,8 @@ if((document.location.href).indexOf('http://wiki.kortkeros.com/sms2/')>=0){
 if(('    '+document.location.href).indexOf('http://nagios.ulrt.net/')>1){
 	getUrl='ulnag';
 }
-if(('    '+document.location.href).indexOf('http://fttb.mts-nn.ru/')>1){
-	getUrl='fttbnn';
+if(('    '+document.location.href).indexOf('http://fttb.mts-nn.ru/monit.php')>1){
+	actoinScript=mainUrl+'fttb.js';
 }
 
 //if(getUrl.length>1){
