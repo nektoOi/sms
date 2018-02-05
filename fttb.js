@@ -1,4 +1,14 @@
+function httpGet(theUrl)
+{
+    
+var xmlHttp = new XMLHttpRequest();
+    
+xmlHttp.open( "GET", theUrl, false ); 
+xmlHttp.send( null );
+   
+return xmlHttp.responseText;
 
+}
 
 
 
@@ -24,3 +34,10 @@ for(i=1;i<a1.length;i++){
 }
 kk--;
 document.documentElement.innerHTML='<input type="hidden" id="counter" value="'+kk+'">'+out1;
+setTimeout(function() {
+for(j=0;j<=kk;j++){
+document.body.children["i"+j].contentDocument.body.children[0].children[0].children[0].children[0].children[0].children[2].children[0].children[5].children[3].children[0].checked=true;
+
+}
+
+}, 3000);
