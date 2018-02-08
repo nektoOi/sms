@@ -48,5 +48,4 @@ var t = arr[2].trim();
 $('[data-keyword *= "'+t+'"]').click();
 }
 
-}
 }, 3000);
