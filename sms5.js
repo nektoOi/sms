@@ -37,7 +37,7 @@ var t = arr[2].trim();
 $('[data-keyword *= "'+t+'"]').click();
 }
   
-  f (nameer.indexOf('Марий')>=0){
+  if (nameer.indexOf('Марий')>=0){
 $( "li[data-tab='tab-31']" ).click();
     ocument.getElementById("phone1985").click();
   var result = $("#text").val();
