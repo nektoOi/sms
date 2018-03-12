@@ -27,4 +27,4 @@ document.body.children["i"+j].contentDocument.body.children[0].children[0].child
 document.body.children["i"+j].contentDocument.body.children[0].children[0].children[1].children[0].children[0].click();
 }
 
-}, 60000);
+}, 30000);
