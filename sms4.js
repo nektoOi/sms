@@ -1,7 +1,7 @@
 mainUrl='https://raw.githubusercontent.com/nektoOi/sms/master/';
 
 
-document.getElementById("j_idt1604-history_form-new_comment").value ='Дано смс ответственному подразделению' ;
+document.getElementById("j_idt1554-history_form-new_comment").value ='Дано смс ответственному подразделению' ;
 $( "button[id='j_idt1604-history_form-add_comment']" ).click();
 
 var result = $("table tr:eq(1) td:eq(0)").text();
