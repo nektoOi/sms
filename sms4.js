@@ -7,7 +7,7 @@ mainUrl='https://raw.githubusercontent.com/nektoOi/sms/master/';
 
 document.getElementById("group_def_tab-history_form-new_comment").value ='Дано смс ответственному подразделению' ;
 
-$( "button[id='group_def_tab-history_form-add_comment_important']" ).click();
+$( "button[id='group_def_tab-history_form-add_comment']" ).click();
 
 var result = $("table tr:eq(1) td:eq(0)").text();
 
