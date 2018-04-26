@@ -5,13 +5,13 @@ var y=prompt('Кто подтвердил? .Если неизвестно то �
 
 if (y==null){
 
-document.getElementById("j_idt1604-history_form-new_comment").value ='РЭС подтвердил отключение электроэнергии';
-$( "button[id='j_idt1604-history_form-add_comment']" ).click();
+document.getElementById("group_def_tab-history_form-new_comment").value ='РЭС подтвердил отключение электроэнергии';
+$( "button[id='group_def_tab-history_form-add_comment']" ).click();
 }
 else
-document.getElementById("j_idt1604-history_form-new_comment").value ='Отключение электроэнергии подтвердил '+y ;
- $( "button[id='j_idt1604-history_form-add_comment']" ).click();
+document.getElementById("group_def_tab-history_form-new_comment").value ='Отключение электроэнергии подтвердил '+y ;
+ $( "button[id='group_def_tab-history_form-add_comment']" ).click();
 }
 
-else document.getElementById("j_idt1604-history_form-new_comment").value ='РЭС не подтвердил отключение Э/Э' ;
-$( "button[id='j_idt1604-history_form-add_comment']" ).click();
+else document.getElementById("group_def_tab-history_form-new_comment").value ='РЭС не подтвердил отключение Э/Э' ;
+$( "button[id='group_def_tab-history_form-add_comment']" ).click();
