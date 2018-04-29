@@ -56,7 +56,7 @@ $( "li[data-tab='tab-39']" ).click();
 
 var nameer1 = arr[2];
   if (nameer.indexOf(' Сарап')>=0){
-document.getElementById("phone2412").click();
+document.getElementById("phone2413").click();
     document.getElementById("phone2402").click();
     document.getElementById("phone2403").click();
 }
