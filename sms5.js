@@ -48,7 +48,18 @@ var t = arr[2].trim();
 $('[data-keyword *= "'+t+'"]').click();
 }
 
-  
-  
+  if (nameer.indexOf('Удмуртская')>=0){
+$( "li[data-tab='tab-39']" ).click();
+  document.getElementById("phone2409").click();
+  var result = $("#text").val();
+
+
+var nameer1 = arr[2];
+  if (nameer.indexOf(' Сарап')>=0){
+document.getElementById("phone2412").click();
+    document.getElementById("phone2402").click();
+    document.getElementById("phone2403").click();
+}
+  }
   
 }, 3000);
