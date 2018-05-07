@@ -52,6 +52,8 @@ $('[data-keyword *= "'+t+'"]').click();
 $( "li[data-tab='tab-39']" ).click();
   document.getElementById("phone2409").click();
   var result = $("#text").val();
+var t = arr[2].trim();
+$('[data-keyword *= "'+t+'"]').click();
 
 
 var nameer1 = arr[2];
