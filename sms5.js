@@ -55,6 +55,15 @@ $( "li[data-tab='tab-39']" ).click();
 var t = arr[2].trim();
 $('[data-keyword *= "'+t+'"]').click();
 
+    
+     if (nameer.indexOf('УОренбургская')>=0){
+$( "li[data-tab='tab-42']" ).click();
+  document.getElementById("phone2584").click();
+  var result = $("#text").val();
+var t = arr[2].trim();
+$('[data-keyword *= "'+t+'"]').click();
+       
+       
 
 var nameer1 = arr[2];
   if (nameer.indexOf(' Сарап')>=0){
