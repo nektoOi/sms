@@ -65,12 +65,14 @@ document.getElementById("phone2413").click();
     document.getElementById("phone2402").click();
     document.getElementById("phone2403").click();
 }
-        if (nameer.indexOf('Оренбургская')>=0){
+       
+  }
+   if (nameer.indexOf('Оренбургская')>=0){
 $( "li[data-tab='tab-42']" ).click();
   document.getElementById("phone2584").click();
   var result = $("#text").val();
 var t = arr[2].trim();
 $('[data-keyword *= "'+t+'"]').click();
-  }
+   }
   
 }, 3000);
