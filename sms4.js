@@ -1,5 +1,10 @@
 mainUrl='https://raw.githubusercontent.com/nektoOi/sms/master/';
 
+var date = new Date();
+
+// час в текущей временной зоне
+var time = date.getHours()
+if (time < 11 ){
 
 
 document.getElementById("group_def_tab-history_form-new_comment").value ='Дано смс ответственному подразделению' ;
@@ -36,3 +41,7 @@ button.addEventListener('click', function(event) {
 window.open("http://wiki.kortkeros.com/sms2/backend/web/index.php");
 });
 document.getElementById('copyw').click();
+}
+else {
+alert ("Не торопись) Расслабся ");
+}
