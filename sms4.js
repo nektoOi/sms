@@ -43,5 +43,5 @@ window.open("http://wiki.kortkeros.com/sms2/backend/web/index.php");
 document.getElementById('copyw').click();
 }
 else {
-alert ("Не торопись) Расслабся ");
+alert ("Не торопись) Расслабься ");
 }
