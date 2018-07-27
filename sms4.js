@@ -41,6 +41,10 @@ button.addEventListener('click', function(event) {
 window.open("http://wiki.kortkeros.com/sms2/backend/web/index.php");
 });
 document.getElementById('copyw').click();
+
+setTimeout(function() {
+    window.close();
+    }, 3000);
 //}
 //else {
 //alert ("Не торопись) Расслабься ");
