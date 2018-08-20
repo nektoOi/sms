@@ -41,7 +41,7 @@ $('[data-keyword *= "'+t+'"]').click();
 $( "li[data-tab="tab-38"']" ).click();
     document.getElementById("phone2325").click();
   var result = $("#text").val();
-
+  }
 
 //var arr = result.split(',');
 var t = arr[2].trim();
