@@ -37,6 +37,17 @@ var t = arr[2].trim();
 $('[data-keyword *= "'+t+'"]').click();
 }
   
+  if (nameer.indexOf('Сарат')>=0){
+$( "li[data-tab="tab-38"']" ).click();
+    document.getElementById("phone2325").click();
+  var result = $("#text").val();
+
+
+//var arr = result.split(',');
+var t = arr[2].trim();
+$('[data-keyword *= "'+t+'"]').click();
+}
+  
   if (nameer.indexOf('Марий')>=0){
 $( "li[data-tab='tab-31']" ).click();
     document.getElementById("phone1985").click();
@@ -75,4 +86,4 @@ var t = arr[2].trim();
 $('[data-keyword *= "'+t+'"]').click();
    }
   
-}, 3000);
+}, 2000);
