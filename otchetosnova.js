@@ -238,6 +238,13 @@ while (i < 100) {
   i++;
 }
 
+ $( ".ui-textbox" ).eq(2).focus();
+ 
+ var e = jQuery.Event("keypress");
+e.which = 50; // # Some key code value
+e.keyCode = 50;
+$( ".ui-textbox" ).eq(2).trigger(e);
+ 
 
 }, 3130);
 
