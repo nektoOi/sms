@@ -38,6 +38,17 @@ $('[data-keyword *= "'+t+'"]').click();
 }
   
   
+  if (nameer.indexOf('Киров')>=0){
+$( "li[data-tab='tab-33']" ).click();
+    document.getElementById("phone2113").click();
+  var result = $("#text").val();
+
+
+//var arr = result.split(',');
+var t = arr[2].trim();
+$('[data-keyword *= "'+t+'"]').click();
+}
+  
   
   if (nameer.indexOf('Марий')>=0){
 $( "li[data-tab='tab-31']" ).click();
