@@ -326,7 +326,11 @@ if((document.location.href).indexOf('10.78.53.167')>=0){
 
 
 
-}, 5000);
+}, 20000);
+setTimeout(function() {
+$( "a[target='_blank']" )[0].click();
+
+}, 21000);
 }
 
 
