@@ -11,4 +11,4 @@ var r = "РНР №" + namb + " на  оборудование связи, ка�
 
 document.getElementById("group_interaction_info_form-tab_view-commentary").value = r;
 document.getElementById("group_interaction_info_form-tab_view-commentary").rows = 15;
-document.getElementById("group_interaction_info_form-tab_view-businessInteraction").value = "РНР№ " + namb;
+document.getElementById("group_interaction_info_form-tab_view-businessInteraction").value = "РНР №" + namb;
