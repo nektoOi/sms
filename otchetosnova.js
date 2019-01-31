@@ -189,5 +189,13 @@ $( "a[target='_blank']" )[0].click();
 
 }, 21000);
 
+setTimeout(function() {
+$( "div.text-holder:contains('Журнал аварий')" ).dblclick();
+
+}, 23000);
+setTimeout(function() {
+$( ".ui-action-toCSV").click();
+
+}, 26000);
 
 
