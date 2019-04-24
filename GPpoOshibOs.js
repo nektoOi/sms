@@ -14,4 +14,4 @@ arr[3] + ", " +  "Ошибки на интерфейсе " + arr[4] + ". " + "Б
 document.getElementById('group_interaction_info_form-tab_view-businessInteraction').value = name;
 var prim = "ГП технологическая, абонентов не привязывать. " + name;
 document.getElementById('group_interaction_info_form-tab_view-commentary').value = prim;
-}, 15030);
+}, 17030);
