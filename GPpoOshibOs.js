@@ -9,7 +9,7 @@ document.getElementById('group_interaction_rule_frame_form-j_idt1084-node_input'
 }, 3030);
 
 setTimeout(function() {
-var name =  document.getElementById('group_interaction_info_form-tab_view-node_rule_building-address_ac_input').value + " " + arr[2] + " " + 
+var name = "Ошибки на интерфейсах с 15.04.2019 " + document.getElementById('group_interaction_info_form-tab_view-node_rule_building-address_ac_input').value + " " + arr[2] + " " + 
 arr[3] + ", " +  "Ошибки на интерфейсе " + arr[4] + ". " + "Без деградации сервисов." ;
 document.getElementById('group_interaction_info_form-tab_view-businessInteraction').value = name;
 var prim = "ГП технологическая, абонентов не привязывать. " + name;
