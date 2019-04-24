@@ -1,4 +1,4 @@
-var test = prompt("втавте строку", '');
+var test = prompt("Вставте строку из excel. После того как вы нажмете "ОК" у вас будет ровно 8 секунд для добавления УД. P.s не забудте добавить Служебный порт", '');
 var arr = test.split(' ');
 document.getElementById('group_interaction_info_form-tab_view-group_interaction_type_1').click();
 setTimeout(function() {
