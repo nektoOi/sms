@@ -40,7 +40,14 @@ for(var i=0;i<vse.length;i++){
 }
 
 
-var mess =adres +' '+ y + ". Количество установок " + sum +". Время начала аварии " + timedown+ " "+ namberGP ;
+var tre = $(".ui-datatable-selectable").find("td").eq(0).html().split(';');
+
+var fl = $("#group_interaction_info_form-tab_view-group_interaction_rule_table-j_idt703").text()
+var ul = $("#group_interaction_info_form-tab_view-group_interaction_rule_table-j_idt701").text()
+
+
+
+var mess = "Недоступно оборудование " + adres +', '+ tre[1] + ". Кол-во ЮЛ  " + ul + " ФЛ " + fl +  ". Время начала аварии " + timedown+ " "+ namberGP ;
 //$("#group_interaction_info_form-tab_view-node_rule_building_out-node_rule_building_out").html('<input type="button" name="nubex" value="Nubex" />');
 
 
