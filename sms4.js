@@ -40,9 +40,9 @@ for(var i=0;i<vse.length;i++){
 }
 var tre = $(".ui-datatable-selectable").find("td").eq(0).html().split(';');
 
-alert(tre[1]);
 
-var mess = "Недоступно оборудование " + adres +', '+ tre + ". Количество установок " + sum +". Время начала аварии " + timedown+ " "+ namberGP ;
+
+var mess = "Недоступно оборудование " + adres +', '+ tre[1] + ". Количество установок " + sum +". Время начала аварии " + timedown+ " "+ namberGP ;
 //$("#group_interaction_info_form-tab_view-node_rule_building_out-node_rule_building_out").html('<input type="button" name="nubex" value="Nubex" />');
 
 
