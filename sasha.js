@@ -42,8 +42,9 @@ for(var i=0;i<vse.length;i++){
 
 var tre = $(".ui-datatable-selectable").find("td").eq(0).html().split(';');
 
-var fl = $("#group_interaction_info_form-tab_view-group_interaction_rule_table-j_idt703").text()
-var ul = $("#group_interaction_info_form-tab_view-group_interaction_rule_table-j_idt701").text()
+ar fl = $("#group_interaction_info_form-tab_view-group_interaction_rule_table_head").find("tr").eq(2).find("th").eq(10).attr('aria-label');
+
+var ul = $("#group_interaction_info_form-tab_view-group_interaction_rule_table_head").find("tr").eq(2).find("th").eq(9).attr('aria-label');
 
 
 
