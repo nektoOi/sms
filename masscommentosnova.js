@@ -32,7 +32,7 @@ console.log(first);
 }
 
 var first = 0;
-$("#group_interaction_info_form-tab_view-group_interaction_rule_table-0-j_idt711-link_dlg").find("div").eq(1).find("iframe").eq(0).attr('id', "doldy");
+$( ".ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-shadow.ui-hidden-container.ui-overlay-visible" ).find("div").eq(1).find("iframe").eq(0).attr('id', "doldy");
 
 $("#doldy").attr('src', long[first]);
 
