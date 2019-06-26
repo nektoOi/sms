@@ -65,9 +65,9 @@ window.open("http://omssis-sms.mts-nn.ru/sms2/backend/web/index.php");
 });
 document.getElementById('copyw').click();
 
-setTimeout(function() {
-    window.close();
-    }, 3000);
+//setTimeout(function() {
+   // window.close();
+  //  }, 3000);
 //}
 //else {
 //alert ("Не торопись) Расслабься ");
