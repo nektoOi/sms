@@ -9,7 +9,7 @@ function httpGet(theUrl)
 }
 
 
-if((document.location.href).indexOf('10.78.16.120:8080/argus/')>=0){
+if((document.location.href).indexOf('argus-ktp.pr.rt.ru:8080/argus/')>=0){
 	actoinScript=mainUrl+'RNRon.js';
 	eval(httpGet(actoinScript));
 }
