@@ -1,4 +1,4 @@
-$("#gi_header-header_frame").html('<textarea id="sdsaa" name="asd" cols="100" rows="3" autocomplete="false" placeholder="Ваш комментарий" maxlength="100000" class="ui-inputfield ui-inputtextarea ui-widget ui-state-default ui-corner-all width-75-percents ui-inputtextarea-resizable ui-state-hover" role="textbox" aria-disabled="false" aria-readonly="false" aria-multiline="true" data-autosize-on="true" style="overflow: hidden; overflow-wrap: break-word; height: 100px;"></textarea>')
+// $("#gi_header-header_frame").html('<textarea id="sdsaa" name="asd" cols="100" rows="3" autocomplete="false" placeholder="Ваш комментарий" maxlength="100000" class="ui-inputfield ui-inputtextarea ui-widget ui-state-default ui-corner-all width-75-percents ui-inputtextarea-resizable ui-state-hover" role="textbox" aria-disabled="false" aria-readonly="false" aria-multiline="true" data-autosize-on="true" style="overflow: hidden; overflow-wrap: break-word; height: 100px;"></textarea>')
 var comment = prompt("Какой комментарий");
 setTimeout(function() {
 
