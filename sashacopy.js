@@ -7,10 +7,6 @@ mainUrl='https://raw.githubusercontent.com/nektoOi/sms/master/';
 //if (time < 11 ){
 
 
-document.getElementById("group_def_tab-history_form-new_comment").value ='Дано смс ответственному подразделению' ;
-
-
-$( "button[id='group_def_tab-history_form-add_comment']" ).click();
 
 setTimeout(function() {
 
@@ -48,7 +44,7 @@ var ul = $("#group_interaction_info_form-tab_view-group_interaction_rule_table_h
 
 
 
-var mess =+ adres +', '+ tre[1] + ". Время начала аварии " + timedown+ " "+ namberGP ;
+var mess = adres +', '+ tre[1] + ". Время начала аварии " + timedown+ " "+ namberGP ;
 //$("#group_interaction_info_form-tab_view-node_rule_building_out-node_rule_building_out").html('<input type="button" name="nubex" value="Nubex" />');
 
 
