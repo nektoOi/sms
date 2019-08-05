@@ -48,7 +48,7 @@ var ul = $("#group_interaction_info_form-tab_view-group_interaction_rule_table_h
 
 
 
-var mess = "Недоступно оборудование " + adres +', '+ tre[1] + ". Кол-во ЮЛ  " + ul + " ФЛ " + fl +  ". Время начала аварии " + timedown+ " "+ namberGP ;
+var mess = "Недоступно оборудование " + adres +', '+ tre[1] + ". Время начала аварии " + timedown+ " "+ namberGP ;
 //$("#group_interaction_info_form-tab_view-node_rule_building_out-node_rule_building_out").html('<input type="button" name="nubex" value="Nubex" />');
 
 
