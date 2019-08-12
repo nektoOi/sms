@@ -75,4 +75,4 @@ document.getElementById('copyw').click();
 //else {
 //alert ("Не торопись) Расслабься ");
 //}
-}, 400);
+}, 800);
