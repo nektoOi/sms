@@ -1,4 +1,4 @@
-// mainUrl='https://raw.githubusercontent.com/nektoOi/sms/master/';
+mainUrl='https://raw.githubusercontent.com/nektoOi/sms/master/';
 
 //var date = new Date();
 
