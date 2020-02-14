@@ -64,6 +64,7 @@ $('[data-keyword *= "'+t+'"]').click();
   if (nameer.indexOf('Удмуртская')>=0){
 $( "li[data-tab='tab-39']" ).click();
   document.getElementById("phone2409").click();
+  document.getElementById("phone907").click();
   var result = $("#text").val();
 var t = arr[1].trim();
 $('[data-keyword *= "'+t+'"]').click();
