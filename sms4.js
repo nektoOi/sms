@@ -44,12 +44,13 @@ var fl = $("#group_interaction_info_form-tab_view-group_interaction_rule_table_h
 
 var ul = $("#group_interaction_info_form-tab_view-group_interaction_rule_table_head").find("tr").eq(2).find("th").eq(9).attr('aria-label');
 
+var plat = $('#group_interaction_info_form-tab_view-customer_comment_out').text()
 
 
 //var mess = "Недоступно оборудование " + adres +', '+ tre[1] + ". Кол-во ЮЛ  " + ul + " ФЛ " + fl +  ". Время начала аварии " + timedown+ " "+ namberGP ;
 //$("#group_interaction_info_form-tab_view-node_rule_building_out-node_rule_building_out").html('<input type="button" name="nubex" value="Nubex" />');
 
-var mess = "Недоступно оборудование " + adres +', '+ tre[1] + ". Время начала аварии " + timedown+ " "+ namberGP ;
+var mess = "Недоступно оборудование " + adres +', '+ tre[1] + ". Время начала аварии " + timedown+ " "+ namberGP +" "+ plat ;
 //$("#group_interaction_info_form-tab_view-node_rule_building_out-node_rule_building_out").html('<input type="button" name="nubex" value="Nubex" />');
 
 
