@@ -7,7 +7,7 @@ mainUrl='https://raw.githubusercontent.com/nektoOi/sms/master/';
 //if (time < 11 ){
 
 
-document.getElementById("group_def_tab-history_form-new_comment").value ='Дано смс ответственному подразделению' ;
+document.getElementById("group_def_tab-history_form-new_comment").value ='Передано на устранение в ответственное подразделение' ;
 
 
 $( "button[id='group_def_tab-history_form-add_comment']" ).click();
